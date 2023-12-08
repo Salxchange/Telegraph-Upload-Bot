@@ -28,9 +28,9 @@ async def chat_watcher_func(bot: Client, message):
 @Client.on_message(filters.command(["stats", "status", "gstats"]))
 async def stats(bot, message):
     await message.delete()
-    alexaai = await message.reply("**ᴡᴀɪᴛ**️")
+    alexaai = await message.reply("**𝖶𝖺𝗂𝗍**️")
     await asyncio.sleep(1)
-    await alexaai.edit("**ɪ ᴀᴍ ᴄᴏʟʟᴇᴄᴛɪɴɢ sᴛᴀᴛᴜs**")
+    await alexaai.edit("**♻️ 𝖢𝗈𝗅𝗅𝖾𝖼𝗍𝗂𝗇𝗀 𝖣𝖺𝗍𝖺**")
     await asyncio.sleep(1)
     await alexaai.delete()    
     copypast_lawdey = len(await get_telegraph_users())
