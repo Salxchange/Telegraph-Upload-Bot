@@ -54,7 +54,7 @@ async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/9274ea3a454f5c83c409e.jpg",
         caption=f"""
-⚡ Hᴇʟʟᴏ, I ᴀᴍ ᴀ ᴛᴇʟᴇɢʀᴀᴘʜ Uᴘʟᴏᴀᴅᴇʀ ʙᴏᴛ, I ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴜᴘʟᴏᴀᴅ ʏᴏᴜʀ ғɪʟᴇs ᴛᴏ Tᴇʟᴇɢʀᴀᴘʜ
+⚡ Hᴇʟʟᴏ, ɪ ᴀᴍ ᴀ ᴛᴇʟᴇɢʀᴀᴘʜ Uᴘʟᴏᴀᴅᴇʀ ʙᴏᴛ, ɪ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴜᴘʟᴏᴀᴅ ʏᴏᴜʀ ғɪʟᴇs ᴛᴏ ᴛᴇʟᴇɢʀᴀᴘʜ
 
  Sᴇɴᴅ ᴀ ᴘʜᴏᴛᴏ, ᴠɪᴅᴇᴏ, GIF ᴏʀ ᴠɪᴅᴇᴏ ᴍᴇssᴀɢᴇ ᴀɴᴅ ʀᴇᴄᴇɪᴠᴇ ᴀ ᴅɪʀᴇᴄᴛ ʟɪɴᴋ ᴛᴏ ᴛʜᴇ ғɪʟᴇ
 
