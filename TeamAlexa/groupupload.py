@@ -57,7 +57,7 @@ async def upload_text_telegraph(client, message: Message):
             ]
         )        
         await msg.edit_text(
-            f"🖇️ ʟɪɴᴋ - {generated_link}\n\n<center><a href=https://youtube.com/jankarikiduniya style=color:red;>sᴜʙsᴄʀɪʙᴇ ᴏɴ ʏᴏᴜᴛᴜʙᴇ</a></center>",
+            f"🖇️ ʟɪɴᴋ - {generated_link}\n\n<center><a href=https://youtube.com/jankarikiduniya style=color:red;></a></center>",
             reply_markup=IN_BUTTON,
             disable_web_page_preview=True)
     except Exception as e:
@@ -124,7 +124,7 @@ async def upload_to_telegraph(bot, message):
                 text=f"🖇️ ʟɪɴᴋ - {generated_link}\n\n<center><a href=https://youtube.com/jankarikiduniya style=color:red;></a></center>",
                 reply_markup=IN_BUTTON,
                 disable_web_page_preview=True,
-                parse_mode="html"
+                parse_mode="markdown"
             )
             if os.path.exists(loc):
                 os.remove(loc)
