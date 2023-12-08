@@ -54,21 +54,24 @@ async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/7d7df33268ac53f8480fe.jpg",
         caption=f"""
-⚡ Hello, ɪ ᴀᴍ ᴛᴇᴀᴍ ʀᴏᴋᴜ ᴘʀᴏᴊᴇᴄᴛ ғᴏʀ ᴜᴘʟᴏᴀᴅɪɴɢ ᴏɴ ᴛᴇʟᴇɢʀᴀᴘʜ. 
-‣ Cʜᴇᴄᴋ /help ᴛᴏ sᴇᴇ ʜᴇʟᴘ ᴍᴇɴᴜ
+⚡ Hᴇʟʟᴏ, I ᴀᴍ ᴀ ᴛᴇʟᴇɢʀᴀᴘʜ Uᴘʟᴏᴀᴅᴇʀ ʙᴏᴛ, I ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴜᴘʟᴏᴀᴅ ʏᴏᴜʀ ғɪʟᴇs ᴛᴏ Tᴇʟᴇɢʀᴀᴘʜ
+
+ Sᴇɴᴅ ᴀ ᴘʜᴏᴛᴏ, ᴠɪᴅᴇᴏ, GIF ᴏʀ ᴠɪᴅᴇᴏ ᴍᴇssᴀɢᴇ ᴀɴᴅ ʀᴇᴄᴇɪᴠᴇ ᴀ ᴅɪʀᴇᴄᴛ ʟɪɴᴋ ᴛᴏ ᴛʜᴇ ғɪʟᴇ
+
+➜ Cʜᴇᴄᴋ /help ᴛᴏ sᴇᴇ ʜᴇʟᴘ ᴍᴇɴᴜ
 """,reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("BotsList Channel", url="https://t.me/Rokubotz")
+                        InlineKeyboardButton("🧑‍💻 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋", url="https://t.me/Snowball_Official")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs"),
-                        InlineKeyboardButton("close", callback_data="closeMessage")
+                        InlineKeyboardButton("", callback_data="aboutbot"),
+                        InlineKeyboardButton("", callback_data="aboutdevs"),
+                        InlineKeyboardButton("", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Rokubotz"),
-                        InlineKeyboardButton(" Support Group", url="https://t.me/Rokubotz")
+                        InlineKeyboardButton("⛅ 𝖴𝗉𝖽𝖺𝗍𝖾𝗌", url="https://t.me/Rokubotz"),
+                        InlineKeyboardButton(" 🌨️ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍", url="https://t.me/Roofiverse")
                     ]
                 ]
            )
