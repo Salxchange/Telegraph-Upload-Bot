@@ -54,7 +54,7 @@ async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/7d7df33268ac53f8480fe.jpg",
         caption=f"""
-⚡ Hello, [{}](tg://user?id={}) ɪ ᴀᴍ ᴛᴇᴀᴍ ʀᴏᴋᴜ ᴘʀᴏᴊᴇᴄᴛ ғᴏʀ ᴜᴘʟᴏᴀᴅɪɴɢ ᴏɴ ᴛᴇʟᴇɢʀᴀᴘʜ. 
+⚡ Hello, ɪ ᴀᴍ ᴛᴇᴀᴍ ʀᴏᴋᴜ ᴘʀᴏᴊᴇᴄᴛ ғᴏʀ ᴜᴘʟᴏᴀᴅɪɴɢ ᴏɴ ᴛᴇʟᴇɢʀᴀᴘʜ. 
 ‣ Cʜᴇᴄᴋ /help ᴛᴏ sᴇᴇ ʜᴇʟᴘ ᴍᴇɴᴜ
 """,reply_markup=InlineKeyboardMarkup(
                 [
