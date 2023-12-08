@@ -66,7 +66,7 @@ async def start_(client: Client, message: Message):
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
                         InlineKeyboardButton("About Dev", callback_data="aboutdevs"),
-                        InlineKeyboardButton("", callback_data="closeMessage")
+                        InlineKeyboardButton("close", callback_data="closeMessage")
                     ],
                     [
                         InlineKeyboardButton("Bots Channel", url="https://t.me/Rokubotz"),
