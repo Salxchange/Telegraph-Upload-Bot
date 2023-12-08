@@ -54,22 +54,22 @@ async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/7d7df33268ac53f8480fe.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ ᴛᴇᴀᴍ ᴀʟᴇxᴀ ᴘʀᴏᴊᴇᴄᴛ ғᴏʀ ᴜᴘʟᴏᴀᴅɪɴɢ ᴏɴ ᴛᴇʟᴇɢʀᴀᴘʜ ...
+⚡ ʜᴇʟʟᴏ, ɪ ᴀᴍ ᴛᴇᴀᴍ ᴀʟᴇxᴀ ᴘʀᴏᴊᴇᴄᴛ ғᴏʀ ᴜᴘʟᴏᴀᴅɪɴɢ ᴏɴ ᴛᴇʟᴇɢʀᴀᴘʜ ...
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴄʀᴇᴀᴛᴏʀ : [ᴀsᴀᴅ ᴀʟɪ](https://t.me/Dr_Asad_Ali)
-┣★ ᴜᴘᴅᴀᴛᴇs : [ᴀʟᴇxᴀ ʙᴏᴛ](https://t.me/Alexa_BotUpdates)
-┣★ sᴜᴘᴘᴏʀᴛ : [ᴀʟᴇxᴀ sᴜᴘᴘᴏʀᴛ](https://t.me/Alexa_Help)
-┣★ ʀᴜɴ ➛  : /help ᴛᴏ sᴇᴇ ʜᴇʟᴘ ᴍᴇɴᴜ
+┣➜ [𝖢𝗋𝖾𝖺𝗍𝗈𝗋](https://t.me/Snowball_Official)
+┣➜ [𝖴𝗉𝖽𝖺𝗍𝖾𝗌](https://t.me/Rokubotz)
+┣➜ [𝖲𝗎𝗉𝗉𝗈𝗋𝗍](https://t.me/Roofiverse)
+┣➜ 𝖱𝗎𝗇 ➛  : /help ᴛᴏ sᴇᴇ ʜᴇʟᴘ ᴍᴇɴᴜ
 ┗━━━━━━━━━━━━━━━━━┛
 
 💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
-ᴅᴍ ᴛᴏ ᴍʏ [ʟᴇɢᴇɴᴅ ᴏᴡɴᴇʀ](https://t.me/Dr_Asad_Ali) ...
+ᴅᴍ ᴛᴏ ᴍʏ [𝖫𝖾𝗀𝖾𝗇𝖽 𝖮𝗐𝗇𝖾𝗋](https://t.me/Snowball_Official) ...
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
    reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🌹 ❰ ᴊᴏɪɴ ʜᴇʀᴇ ❱ 🌹", url=f"https://t.me/Alexa_Help")
+                        "🌹 ❰ ᴊᴏɪɴ ʜᴇʀᴇ ❱ 🌹", url=f"https://t.me/Rokubotz")
                 ]
                 
            ]
