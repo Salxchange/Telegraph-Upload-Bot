@@ -75,7 +75,7 @@ async def upload_to_telegraph(bot, message):
         await bot.send_message(
             message.chat.id, 
             text=AlexaData.UPLOAD_MSG2, 
-            parse_mode="markdown"
+            parse_mode="html"
         )
     # replied to media
     elif reply.media:
@@ -89,7 +89,7 @@ async def upload_to_telegraph(bot, message):
             msg = await bot.send_message(
                 message.chat.id, 
                 text=AlexaData.HOLD_MSG, 
-                parse_mode="markdown"
+                parse_mode="html"
             )
             # change ext to png to use convert in link
             if reply.animation or reply.sticker:
@@ -104,7 +104,7 @@ async def upload_to_telegraph(bot, message):
                 return await bot.send_message(
                     message.chat.id,
                     text=str(e),
-                    parse_mode="markdown"
+                    parse_mode="html"
                 )
             generated_link = 'https://telegra.ph/{}'.format(response[0])
             IN_BUTTON = InlineKeyboardMarkup(
@@ -124,7 +124,7 @@ async def upload_to_telegraph(bot, message):
                 text=f"🖇️ ʟɪɴᴋ - {generated_link}\n\n<center><a href=https://youtube.com/jankarikiduniya style=color:red;></a></center>",
                 reply_markup=IN_BUTTON,
                 disable_web_page_preview=True,
-                parse_mode="markdown"
+                parse_mode="html"
             )
             if os.path.exists(loc):
                 os.remove(loc)
@@ -132,12 +132,12 @@ async def upload_to_telegraph(bot, message):
             await bot.send_message(
                 message.chat.id,
                 text=AlexaData.ERROR_MSG,
-                parse_mode="markdown"
+                parse_mode="html"
             )
     else:
         # if replied to unsupported media
         await bot.send_message(
             message.chat.id, 
             text=AlexaData.FILE_ERROR, 
-            parse_mode="markdown"
+            parse_mode="html"
         )
