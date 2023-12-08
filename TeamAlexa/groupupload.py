@@ -48,8 +48,8 @@ async def upload_text_telegraph(client, message: Message):
         IN_BUTTON = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🤩 ᴊᴏɪɴ ᴜs", url="https://t.me/Rokubotz"),
-                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs 🐲", url="https://t.me/Rokubotz")
+                    InlineKeyboardButton("🤩 ᴊᴏɪɴ ᴜs", url="https://t.me/Alexa_Help"),
+                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs 🐲", url="https://t.me/Alexa_BotUpdates")
                 ],
                 [
                     InlineKeyboardButton("🌐 ᴡᴇʙ ᴘʀᴇᴠɪᴇᴡ 🌐", url=generated_link)
@@ -57,7 +57,7 @@ async def upload_text_telegraph(client, message: Message):
             ]
         )        
         await msg.edit_text(
-            f"🖇️ ʟɪɴᴋ - {generated_link}\n\n<center><a href=https://youtube.com/jankarikiduniya style=color:red;></a></center>",
+            f"🖇️ ʟɪɴᴋ - {generated_link}\n\n<center><a href=https://youtube.com/jankarikiduniya style=color:red;>sᴜʙsᴄʀɪʙᴇ ᴏɴ ʏᴏᴜᴛᴜʙᴇ</a></center>",
             reply_markup=IN_BUTTON,
             disable_web_page_preview=True)
     except Exception as e:
@@ -75,7 +75,7 @@ async def upload_to_telegraph(bot, message):
         await bot.send_message(
             message.chat.id, 
             text=AlexaData.UPLOAD_MSG2, 
-            parse_mode="html"
+            parse_mode="markdown"
         )
     # replied to media
     elif reply.media:
@@ -89,7 +89,7 @@ async def upload_to_telegraph(bot, message):
             msg = await bot.send_message(
                 message.chat.id, 
                 text=AlexaData.HOLD_MSG, 
-                parse_mode="html"
+                parse_mode="markdown"
             )
             # change ext to png to use convert in link
             if reply.animation or reply.sticker:
@@ -104,14 +104,14 @@ async def upload_to_telegraph(bot, message):
                 return await bot.send_message(
                     message.chat.id,
                     text=str(e),
-                    parse_mode="html"
+                    parse_mode="markdown"
                 )
             generated_link = 'https://telegra.ph/{}'.format(response[0])
             IN_BUTTON = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤩 ᴊᴏɪɴ ᴜs", url="https://t.me/Rokubotz"),
-                        InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs 🐲", url="https://t.me/Rokubotz")
+                        InlineKeyboardButton("🤩 ᴊᴏɪɴ ᴜs", url="https://t.me/Alexa_Help"),
+                        InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs 🐲", url="https://t.me/Alexa_BotUpdates")
                     ],
                     [
                         InlineKeyboardButton("🌐 ᴡᴇʙ ᴘʀᴇᴠɪᴇᴡ 🌐", url=generated_link)
@@ -121,7 +121,7 @@ async def upload_to_telegraph(bot, message):
             await bot.edit_message_text(
                 chat_id=message.chat.id,
                 message_id=msg.message_id,
-                text=f"🖇️ ʟɪɴᴋ - {generated_link}\n\n<center><a href=https://youtube.com/jankarikiduniya style=color:red;></a></center>",
+                text=f"🖇️ ʟɪɴᴋ - {generated_link}\n\n<center><a href=https://youtube.com/jankarikiduniya style=color:red;>sᴜʙsᴄʀɪʙᴇ ᴏɴ ʏᴏᴜᴛᴜʙᴇ</a></center>",
                 reply_markup=IN_BUTTON,
                 disable_web_page_preview=True,
                 parse_mode="html"
@@ -132,12 +132,12 @@ async def upload_to_telegraph(bot, message):
             await bot.send_message(
                 message.chat.id,
                 text=AlexaData.ERROR_MSG,
-                parse_mode="html"
+                parse_mode="markdown"
             )
     else:
         # if replied to unsupported media
         await bot.send_message(
             message.chat.id, 
             text=AlexaData.FILE_ERROR, 
-            parse_mode="html"
-        )
+            parse_mode="markdown"
+)
