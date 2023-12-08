@@ -63,8 +63,23 @@ async def start_(client: Client, message: Message):
 
 💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
 ᴅᴍ ᴛᴏ ᴍʏ [𝖫𝖾𝗀𝖾𝗇𝖽 𝖮𝗐𝗇𝖾𝗋](https://t.me/Snowball_Official) ...
-""",
-   
+""",reply_markup=InlineKeyboardMarkup(
+                [
+                    [
+                        InlineKeyboardButton("BotsList Channel", url="https://t.me/Rokubotz")
+                    ],
+                    [
+                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
+                        InlineKeyboardButton("About Dev", callback_data="aboutdevs"),
+                        InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
+                    ],
+                    [
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/Rokubotz"),
+                        InlineKeyboardButton(" Support Group", url="https://t.me/Rokubotz")
+                    ]
+                ]
+           )
+    )
     sender_id = message.from_user.id
     sender_name = message.from_user.username
     return await client.send_message(LOG_ID, f"{message.from_user.mention} ᴊᴜsᴛ sᴛᴀʀᴛᴇᴅ ʏᴏᴜʀ ʙᴏᴛ.\n\n**ᴜsᴇʀ ɪᴅ:** {sender_id}\n**ᴜsᴇʀɴᴀᴍᴇ:** @{sender_name}")
