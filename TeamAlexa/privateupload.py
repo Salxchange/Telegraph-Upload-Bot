@@ -51,7 +51,7 @@ async def photo_upload(bot, message):
         ]
     )
         await t.edit_text(
-            f"🖇️ **ʟɪɴᴋ** - `{generated_link} `\n\n𝖦𝖾𝗇𝖾𝗋𝖺𝗍𝖾𝖽 𝖡𝗒 ‣ <a href=https://t.me/RokuTelegraphUploaderRobot>𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗉𝗁 𝖴𝗉𝗅𝗈𝖺𝖽𝖾𝗋 𝖡𝗈𝗍</a>",
+            f"🖇️ **ʟɪɴᴋ** - `{generated_link} `\n\n🔗 𝖦𝖾𝗇𝖾𝗋𝖺𝗍𝖾𝖽 𝖡𝗒 ‣ <a href=https://t.me/RokuTelegraphUploaderRobot>𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗉𝗁 𝖴𝗉𝗅𝗈𝖺𝖽𝖾𝗋 𝖡𝗈𝗍</a>",
             reply_markup=IN_BUTTON,
             disable_web_page_preview=True)
     finally:
@@ -84,7 +84,7 @@ async def video_upload(bot, message):
             ]
         )
         await t.edit_text(
-            f"🖇️ **ʟɪɴᴋ** - `{generated_link} `\n\n𝖦𝖾𝗇𝖾𝗋𝖺𝗍𝖾𝖽 𝖡𝗒 ‣ <a href=https://t.me/RokuTelegraphUploaderRobot>𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗉𝗁 𝖴𝗉𝗅𝗈𝖺𝖽𝖾𝗋 𝖡𝗈𝗍</a>",
+            f"🖇️ **ʟɪɴᴋ** - `{generated_link} `\n\n🔗 𝖦𝖾𝗇𝖾𝗋𝖺𝗍𝖾𝖽 𝖡𝗒 ‣ <a href=https://t.me/RokuTelegraphUploaderRobot>𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗉𝗁 𝖴𝗉𝗅𝗈𝖺𝖽𝖾𝗋 𝖡𝗈𝗍</a>",
             reply_markup=IN_BUTTON,
             disable_web_page_preview=True)
     finally:
@@ -120,7 +120,7 @@ async def animation_upload(bot, message):
         ]
         )
         await t.edit_text(
-            f"🖇️ **ʟɪɴᴋ** - `{generated_link} `\n\n𝖦𝖾𝗇𝖾𝗋𝖺𝗍𝖾𝖽 𝖡𝗒 ‣ <a href=https://t.me/RokuTelegraphUploaderRobot>𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗉𝗁 𝖴𝗉𝗅𝗈𝖺𝖽𝖾𝗋 𝖡𝗈𝗍</a>",
+            f"🖇️ **ʟɪɴᴋ** - `{generated_link} `\n\n🔗 𝖦𝖾𝗇𝖾𝗋𝖺𝗍𝖾𝖽 𝖡𝗒 ‣ <a href=https://t.me/RokuTelegraphUploaderRobot>𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗉𝗁 𝖴𝗉𝗅𝗈𝖺𝖽𝖾𝗋 𝖡𝗈𝗍</a>",
             reply_markup=IN_BUTTON,
             disable_web_page_preview=True)
     finally:
