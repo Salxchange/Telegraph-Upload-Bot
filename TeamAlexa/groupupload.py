@@ -48,8 +48,8 @@ async def upload_text_telegraph(client, message: Message):
         IN_BUTTON = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🤩 ᴊᴏɪɴ ᴜs", url="https://t.me/Alexa_Help"),
-                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs 🐲", url="https://t.me/Alexa_BotUpdates")
+                    InlineKeyboardButton("🤩 ᴊᴏɪɴ ᴜs", url="https://t.me/Rokubotz"),
+                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs 🐲", url="https://t.me/Rokubotz")
                 ],
                 [
                     InlineKeyboardButton("🌐 ᴡᴇʙ ᴘʀᴇᴠɪᴇᴡ 🌐", url=generated_link)
@@ -110,8 +110,8 @@ async def upload_to_telegraph(bot, message):
             IN_BUTTON = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤩 ᴊᴏɪɴ ᴜs", url="https://t.me/Alexa_Help"),
-                        InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs 🐲", url="https://t.me/Alexa_BotUpdates")
+                        InlineKeyboardButton("🤩 ᴊᴏɪɴ ᴜs", url="https://t.me/Rokubotz"),
+                        InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs 🐲", url="https://t.me/Rokubotz")
                     ],
                     [
                         InlineKeyboardButton("🌐 ᴡᴇʙ ᴘʀᴇᴠɪᴇᴡ 🌐", url=generated_link)
@@ -121,7 +121,7 @@ async def upload_to_telegraph(bot, message):
             await bot.edit_message_text(
                 chat_id=message.chat.id,
                 message_id=msg.message_id,
-                text=f"🖇️ ʟɪɴᴋ - {generated_link}\n\n<center><a href=https://youtube.com/jankarikiduniya style=color:red;>sᴜʙsᴄʀɪʙᴇ ᴏɴ ʏᴏᴜᴛᴜʙᴇ</a></center>",
+                text=f"🖇️ ʟɪɴᴋ - {generated_link}\n\n<center><a href=https://youtube.com/jankarikiduniya style=color:red;></a></center>",
                 reply_markup=IN_BUTTON,
                 disable_web_page_preview=True,
                 parse_mode="html"
