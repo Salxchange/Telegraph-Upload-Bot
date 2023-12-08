@@ -44,15 +44,15 @@ async def start_(client: Client, message: Message):
     await add_telegraph_user(message.from_user.id)
     alexamusic = await message.reply("🤭🤏✌️")
     await asyncio.sleep(2)
-    await alexamusic.edit("**sᴛᴀʀᴛɪɴɢ ʙᴏᴛ**")
+    await alexamusic.edit("**𝖲𝗍𝖺𝗋𝗍𝗂𝗇𝗀 𝖡𝗈𝗍**")
     await asyncio.sleep(2)
-    await alexamusic.edit("**ɪ ᴀᴍ ᴅᴏɪɴɢ ᴍʏ ʟᴏᴠᴇ 💕**")
+    await alexamusic.edit("**♻️ 𝖫𝗈𝖺𝖽𝗂𝗇𝗀...**")
     await asyncio.sleep(2)    
     await alexamusic.delete()
     umm = await message.reply_sticker("CAACAgIAAxkBAAEForNjAykaq_efq4Wd-9KZv-nNxJRn3AACIgMAAm2wQgO8x8PfoXC1eCkE")
     await asyncio.sleep(2)
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/7d7df33268ac53f8480fe.jpg",
+        photo=f"https://telegra.ph/file/9274ea3a454f5c83c409e.jpg",
         caption=f"""
 ⚡ Hᴇʟʟᴏ, I ᴀᴍ ᴀ ᴛᴇʟᴇɢʀᴀᴘʜ Uᴘʟᴏᴀᴅᴇʀ ʙᴏᴛ, I ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴜᴘʟᴏᴀᴅ ʏᴏᴜʀ ғɪʟᴇs ᴛᴏ Tᴇʟᴇɢʀᴀᴘʜ
 
